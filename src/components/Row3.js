@@ -90,8 +90,7 @@ const Row3 = () => {
           {buttons.map((button, index) => (
             <div
               key={index}
-              style={{ fontSize: "var(--text-small)" }}
-              className="bg-[#0A090D] inline-flex flex-col hover:scale-95 transition-all duration-150 
+              className="bg-[#0A090D] text-xs inline-flex flex-col hover:scale-95 transition-all duration-150 
             cursor-pointer 
              justify-center items-center rounded-sm w-10 h-10 gap-1.5 p-1 
              shadow-[2px_2px_2px_rgba(33,33,36,1),0.5px_5px_10px_rgba(255,255,255,1)] 
