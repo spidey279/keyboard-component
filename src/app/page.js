@@ -9,7 +9,7 @@ import Row6 from "@/components/Row6";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen   flex items-center justify-center ">
+    <div className="h-screen w-screen  select-none  flex items-center justify-center ">
       {" "}
       <div className="rotate-90 md:rotate-0 origin-center transition-transform duration-300">
         <div className="h-75 w-[42.8rem] max-w-[700px] rounded-xl text-white p-2 bg-zinc-800">
